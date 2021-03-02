@@ -1,4 +1,5 @@
 import React from 'react';
+import image from './assets/pizza_img.jpg'
 
 export default function Pizza() {
   
@@ -7,7 +8,7 @@ export default function Pizza() {
     
       <div className='pizza'>
         <img className='home-mini-image'
-        src='http://wallpapers9.org/wp-content/uploads/2017/01/delicious-pizza-wallpaper-hd-3.jpg'
+        src={image}
         alt='Cheese pizza with spinach'
         /> 
         <h4>Lg Pepperoni Pizza</h4>
@@ -15,7 +16,7 @@ export default function Pizza() {
       </div>
       <div className='pizza'>
         <img className='home-mini-image'
-        src='http://wallpapers9.org/wp-content/uploads/2017/01/delicious-pizza-wallpaper-hd-3.jpg'
+        src={image}
         alt='Cheese pizza with spinach'
         /> 
         <h4>Lg Pepperoni Pizza</h4>
@@ -23,7 +24,7 @@ export default function Pizza() {
       </div>
       <div className='pizza'>
         <img className='home-mini-image'
-        src='http://wallpapers9.org/wp-content/uploads/2017/01/delicious-pizza-wallpaper-hd-3.jpg'
+        src={image}
         alt='Cheese pizza with spinach'
         /> 
         <h4>Lg Pepperoni Pizza</h4>

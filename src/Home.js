@@ -1,6 +1,7 @@
 import React from 'react'
 import { useHistory } from 'react-router-dom'
 import Pizza from './Pizza';
+import image from './assets/pizza_img.jpg'
 
 export default function Home() {
   const history = useHistory()
@@ -15,8 +16,7 @@ export default function Home() {
      <div>
      <img
         className='home-image'
-        src='http://wallpapers9.org/wp-content/uploads/2017/01/delicious-pizza-wallpaper-hd-3.jpg'
-        alt='Cheese pizza with spinach'
+        src={image} alt='Baked pizza with spinach, cheese, green olives, and red and orange bell peppers'
         />
       <button
         onClick={routeToShop}
